@@ -1,0 +1,152 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "mohammad22",
+      "name": "Mohammad-reza",
+      "email": "test@gmail.com",
+      "crime": 0,
+      "role": "ADMIN"
+    },
+    {
+      "id": "2",
+      "username": "jafar_tohidi",
+      "name": "jafar",
+      "email": "test@gmail.com",
+      "role": "USER",
+      "crime": 500
+    },
+    {
+      "id": "3",
+      "username": "morteza_alavi",
+      "name": "mori",
+      "email": "test@gmail.com",
+      "role": "USER",
+      "crime": 200000
+    },
+    {
+      "id": "4",
+      "username": "newsyntax_ir",
+      "name": "newsyntax",
+      "email": "test@gmail.com",
+      "crime": 0,
+      "role": "ADMIN"
+    },
+    {
+      "id": "a22e2cd3-98e2-4375-b28a-8c26228683de",
+      "username": "rezaei_abbas",
+      "name": "abbas rezaei",
+      "email": "test@gmail.com",
+      "crime": 72290,
+      "role": "USER"
+    },
+    {
+      "id": "e34789bb-2a31-4cf5-afae-6623622b2b3c",
+      "username": "Haydar",
+      "name": "Haydar IranZadeh",
+      "email": "test@gmail.com",
+      "crime": 0,
+      "role": "USER"
+    },
+    {
+      "id": "749c8a44-b875-44bb-bd3f-12139f967eb8",
+      "username": "Haydar",
+      "name": "Haydar IranZadeh",
+      "email": "test@gmail.com",
+      "crime": 0,
+      "role": "USER"
+    },
+    {
+      "id": "6b846cff-40e7-4569-b7ce-d9c2f7c0060e",
+      "username": "Haydar",
+      "name": "Haydar IranZadeh",
+      "email": "haydar@gmail.com",
+      "crime": 0,
+      "role": "ADMIN"
+    },
+    {
+      "id": "186314ba-8b77-4e0a-ba41-2897b6bc7bcb",
+      "username": "mobin-s",
+      "name": "Mobin S",
+      "email": "Mobin@gmail.com",
+      "crime": 0,
+      "role": "USER"
+    }
+  ],
+  "tickets": [
+    { "id": 1, "title": "how to learn Node.js" },
+    { "id": 2, "title": "Reac app development" },
+    { "id": 3, "title": "where are you now !!!" },
+    { "id": 4, "title": "may you help me plz" },
+    { "id": 5, "title": "learning curve" }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "oprating systems",
+      "author": "Abraham Silbershotz",
+      "price": 1800000,
+      "free": 1
+    },
+    {
+      "id": "2",
+      "title": "Bostan",
+      "author": "Saadi",
+      "price": 230000,
+      "free": 1
+    },
+    {
+      "id": "dbdab817-e1ba-427e-a532-f19abc818975",
+      "title": "Shahnameh",
+      "author": "Ferdosi",
+      "price": 500000,
+      "free": 1
+    },
+    {
+      "id": "da050cad-9de3-437a-a7cd-46c3a004b661",
+      "title": "Shahnameh",
+      "author": "Ferdosi",
+      "price": 500000,
+      "free": 1
+    },
+    {
+      "id": "a5e634df-1735-46b5-817d-e3834192bbad",
+      "title": "Linux",
+      "author": "Linus trovards",
+      "price": 1800000,
+      "free": 1
+    },
+    {
+      "id": "e60ffe2a-3023-4723-b581-15e68f6ad1ee",
+      "title": "computer-networks",
+      "author": "Tanenbum",
+      "price": 1800000,
+      "free": 1
+    },
+    {
+      "id": "d4e60147-a417-479d-b65f-12e5fcc25cd6",
+      "title": "Creating",
+      "author": "Tony Fadel",
+      "price": 200000,
+      "free": 1
+    }
+  ],
+  "rents": [
+    { "id": 1, "userID": 1, "bookID": 1 },
+    {
+      "id": "8d4b6e56-bdee-4564-9695-4c09c4687a01",
+      "userID": "6b846cff-40e7-4569-b7ce-d9c2f7c0060e",
+      "bookID": "d4e60147-a417-479d-b65f-12e5fcc25cd6"
+    },
+    {
+      "id": "cb7e0e9b-60e2-47a4-b54e-4b5d74514ec2",
+      "userID": "6b846cff-40e7-4569-b7ce-d9c2f7c0060e",
+      "bookID": "e60ffe2a-3023-4723-b581-15e68f6ad1ee"
+    },
+    {
+      "id": "02ceea6c-3292-4158-bf4e-3cee0a55d5f9",
+      "userID": "6b846cff-40e7-4569-b7ce-d9c2f70060e",
+      "bookID": "e60ffe2a-3023-4723-b581-15e68f6ad1ee"
+    }
+  ]
+}
