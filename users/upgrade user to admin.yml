@@ -1,0 +1,20 @@
+info:
+  name: upgrade user to admin
+  type: http
+  seq: 4
+
+http:
+  method: PUT
+  url: localhost:19000/api/users/upgrade?id=1
+  params:
+    - name: id
+      value: "1"
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

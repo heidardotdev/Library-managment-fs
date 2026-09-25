@@ -1,0 +1,24 @@
+info:
+  name: add new book
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: localhost:19000/api/books
+  body:
+    type: json
+    data: |-
+      {
+        "title": "Creating",
+        "author": "Tony Fadel",
+        "price": 200000
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

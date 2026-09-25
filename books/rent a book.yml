@@ -1,0 +1,23 @@
+info:
+  name: rent a book
+  type: http
+  seq: 5
+
+http:
+  method: POST
+  url: localhost:19000/api/books/rent
+  body:
+    type: json
+    data: |-
+      {
+        "userID": "6b846cff-40e7-4569-b7ce-d9c2f70060e",
+        "bookID": "e60ffe2a-3023-4723-b581-15e68f6ad1ee"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

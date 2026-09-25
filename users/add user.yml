@@ -1,0 +1,26 @@
+info:
+  name: add user
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: localhost:19000/api/users
+  body:
+    type: json
+    data: |2-
+          {
+        
+            "username": "mobin-l",
+            "name": "Mobin S",
+            "email": "Mobin@gmail.com"
+        
+          }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

@@ -1,0 +1,20 @@
+info:
+  name: back a book
+  type: http
+  seq: 6
+
+http:
+  method: PUT
+  url: localhost:19000/api/books/back?id=d4e60147-a417-479d-b65f-12e5fcc25cd6
+  params:
+    - name: id
+      value: d4e60147-a417-479d-b65f-12e5fcc25cd6
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

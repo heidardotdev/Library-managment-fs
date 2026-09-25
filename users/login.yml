@@ -1,0 +1,23 @@
+info:
+  name: login
+  type: http
+  seq: 5
+
+http:
+  method: POST
+  url: localhost:19000/api/users/login
+  body:
+    type: json
+    data: |-
+      {
+        "username": "",
+        "email": "haydar@gmail.com"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
