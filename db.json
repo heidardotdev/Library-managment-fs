@@ -40,30 +40,7 @@
       "crime": 72290,
       "role": "USER"
     },
-    {
-      "id": "e34789bb-2a31-4cf5-afae-6623622b2b3c",
-      "username": "Haydar",
-      "name": "Haydar IranZadeh",
-      "email": "test@gmail.com",
-      "crime": 0,
-      "role": "USER"
-    },
-    {
-      "id": "749c8a44-b875-44bb-bd3f-12139f967eb8",
-      "username": "Haydar",
-      "name": "Haydar IranZadeh",
-      "email": "test@gmail.com",
-      "crime": 0,
-      "role": "USER"
-    },
-    {
-      "id": "6b846cff-40e7-4569-b7ce-d9c2f7c0060e",
-      "username": "Haydar",
-      "name": "Haydar IranZadeh",
-      "email": "haydar@gmail.com",
-      "crime": 0,
-      "role": "ADMIN"
-    },
+    
     {
       "id": "186314ba-8b77-4e0a-ba41-2897b6bc7bcb",
       "username": "mobin-s",
